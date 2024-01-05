@@ -3,6 +3,7 @@ import './styles.css';
 
 export const TextInput = ({ searchValue, handleChange }) => {
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <input
       className="text-input"
       onChange={handleChange}
